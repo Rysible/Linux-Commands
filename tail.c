@@ -12,7 +12,8 @@
  * Note that many of the functions of the tail command in this program
  * have been omitted because I am lazy and instructions do not ask for them.
  * If you do actually read the comments and don't just check to see if I have
- * comments good for you.
+ * good for you.
+ * Largely taken from a program my brother and I wrote over the Summer.
  */
 int main(int argc, char* args[]) {
     // declare values
@@ -27,7 +28,6 @@ int main(int argc, char* args[]) {
     byte = 0;
     l = true;
     noArg = false;
-    char buf[BUFFER];
     multipleFiles = false;
     nCom = false;
 
